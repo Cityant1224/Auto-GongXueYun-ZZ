@@ -13,7 +13,7 @@ requests.adapters.DEFAULT_RETRIES = 5
 # 时区
 shanghai_tz = timezone(timedelta(hours=8))
 gmt_time = datetime.now(shanghai_tz)
-now = datetime.now(shanghai_tz)
+现在 = datetime.now(shanghai_tz)
 # 检查当前时间是否小于 12 点判断上下班打卡
 is_start = now.hour < 12
 
@@ -216,5 +216,5 @@ def handler(event, context):
     prepare_sign(users)
 
 
-# 开发环境时解除
-handler(0, 0)
+# 开发环境时请解除下方注释, 但是请注意在部署时要注释或移除这行, 因为云函数会自动运行一次handler, 不注释掉会造成连续推送2次
+# handler(0, 0)
