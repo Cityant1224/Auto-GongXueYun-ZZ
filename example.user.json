@@ -1,25 +1,18 @@
 [
   {
-    "remark": "自定义数据体备注",
-    "enable": true,
+    "remark": "自定义用户名, 用于通知中标识用户",
     "phone": "手机号",
     "password": "密码",
-    "keepLogin": false,
-    "token": "",
-    "userId": "",
-    "planId": "",
-    "randomLocation": true,
-    "user-agent": "Dalvik/2.1.0 (Linux; U; Android 12; SM-G9860 Build/RP1A.200720.012) AppName/4.3.2",
-    "signCheck": true,
-    "country": "中国",
     "province": "xx省",
     "city": "xx市",
     "area": "xx区",
+    "address": "最终打卡页面显示的文字, xx省 · xx市 · 某路边",
+    "longitude": "经度(精确到小数点后六位)",
+    "latitude": "纬度(精确到小数点后六位)",
+
+    "randomLocation": true,
+    "enable": true,
     "desc": "打卡备注",
-    "type": "android",
-    "address": "xx省 · xx市",
-    "longitude": "666.252555",
-    "latitude": "66.567538",
-    "pushKey": "pushplus官网获取的key，需要实名"
+    "pushKey": "pushplus官网获取的key, 需要实名"
   }
 ]
