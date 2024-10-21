@@ -1,0 +1,24 @@
+[
+  {
+    "enable": true,
+    "phone": "19853153341",
+    "password": "Qwertyuiop,000",
+    "keepLogin": false,
+    "token": "如果keepLogin为false就不填",
+    "userId": "如果keepLogin为false就不填",
+    "planId": "如果keepLogin为false就不填",
+    "randomLocation": true,
+    "user-agent": "null",
+    "signCheck": true,
+    "country": "中国",
+    "province": "山东省",
+    "city": "济南市",
+    "area": "历城区",
+    "desc": "打卡备注",
+    "type": "android",
+    "address": "山东省济南市历城区港沟街道",
+    "longitude": "117.247853",
+    "latitude": "36.664420",
+    "pushKey": "f0c949f5be8c4696b39092cd20206da6"
+  }
+]
