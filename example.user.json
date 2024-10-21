@@ -1,18 +1,18 @@
 [
   {
-    "remark": "自定义用户名, 用于通知中标识用户",
-    "phone": "手机号",
-    "password": "密码",
-    "province": "xx省",
-    "city": "xx市",
-    "area": "xx区",
-    "address": "最终打卡页面显示的文字, xx省 · xx市 · 某路边",
-    "longitude": "经度(精确到小数点后六位)",
-    "latitude": "纬度(精确到小数点后六位)",
+    "remark": "ZZ",
+    "phone": "17863847113",
+    "password": "Qwertyuiop,000",
+    "province": "山东省",
+    "city": "济南市",
+    "area": "历城区",
+    "address": "山东省济南市历城区港沟街道",
+    "longitude": "117.247853",
+    "latitude": "36.664420",
 
     "randomLocation": true,
     "enable": true,
     "desc": "打卡备注",
-    "pushKey": "pushplus官网获取的key, 需要实名"
+    "pushKey": "f0c949f5be8c4696b39092cd20206da6"
   }
 ]
